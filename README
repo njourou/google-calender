@@ -1,0 +1,20 @@
+# Simple Node.js Calendar Event Creator
+
+This is a simple Node.js application that prompts the user to enter their email and adds a meeting event to their Google Calendar.
+
+## Setup
+
+1. Clone this repository to your local machine.
+2. Obtain credentials to authenticate with the Google Calendar API by following the instructions (https://developers.google.com/calendar/quickstart/nodejs).
+3. Save the obtained `credentials.json` file in the root directory of this project. OR .env
+4. Install dependencies by running `npm install`.
+5. Run the application using `node index.js`.
+
+## Usage
+
+1. Run the application using `node index.js`.
+2. Follow the prompts to authorize the application and enter your email address.
+3. Once authorized, the application will add a meeting event to your Google Calendar.
+
+
+
